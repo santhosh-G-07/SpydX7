@@ -1,6 +1,6 @@
 {
   "name": "3dfolio",
-  "homepage":"https://santhosh-G-07.github.io/SpydX7.git",
+  "homepage": "https://santhosh-G-07.github.io/SpydX7.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages-d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -35,6 +35,7 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.5.14"
